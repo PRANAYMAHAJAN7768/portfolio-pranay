@@ -18,39 +18,33 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Specialized in building social media clone platforms that replicate the core functionalities of popular networks with custom features. Proficient in creating scalable, user-friendly interfaces, real-time interactions, and secure backend infrastructures"
           src={projectOne}
         />
         <ProjectsCard
           title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" E-commerce developer with expertise in building feature-rich, scalable online stores optimized for conversions. Skilled in integrating secure payment gateways, product management systems, and intuitive user interfaces that enhance shopping experiences. "
           src={projectTwo}
         />
         <ProjectsCard
           title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Experienced in developing real-time chatting apps with seamless messaging, file sharing, and user authentication features. Proficient in building secure, scalable communication platforms with intuitive UI and low-latency performance. "
           src={projectThree}
         />
-        <ProjectsCard
+       <ProjectsCard
           title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Specialized in building social media clone platforms that replicate the core functionalities of popular networks with custom features. Proficient in creating scalable, user-friendly interfaces, real-time interactions, and secure backend infrastructures"
           src={projectOne}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="E-commerce Website"
+          des=" E-commerce developer with expertise in building feature-rich, scalable online stores optimized for conversions. Skilled in integrating secure payment gateways, product management systems, and intuitive user interfaces that enhance shopping experiences. "
           src={projectTwo}
+        />
+        <ProjectsCard
+          title="Chatting App"
+          des=" Experienced in developing real-time chatting apps with seamless messaging, file sharing, and user authentication features. Proficient in building secure, scalable communication platforms with intuitive UI and low-latency performance. "
+          src={projectThree}
         />
       </div>
     </section>
